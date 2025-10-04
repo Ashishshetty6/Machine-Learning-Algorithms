@@ -1,0 +1,13 @@
+prefix=c:/Users/shett/Downloads/Machine-Learning-Algorithms/Linear-Regression/.conda/Library
+exec_prefix=c:/Users/shett/Downloads/Machine-Learning-Algorithms/Linear-Regression/.conda/Library
+libdir=c:/Users/shett/Downloads/Machine-Learning-Algorithms/Linear-Regression/.conda/Library/lib
+sharedlibdir=c:/Users/shett/Downloads/Machine-Learning-Algorithms/Linear-Regression/.conda/Library/lib
+includedir=c:/Users/shett/Downloads/Machine-Learning-Algorithms/Linear-Regression/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
